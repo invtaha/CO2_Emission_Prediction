@@ -9,6 +9,3 @@ env/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-# Models and images can be kept (you want them on GitHub)
-# But if model file is too large (>100MB), you'll need Git LFS
