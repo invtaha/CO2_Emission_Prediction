@@ -107,6 +107,7 @@ CO2_Emission_Prediction/
 │
 ├── .gitignore # Files and folders ignored by Git
 ├── requirements.txt # Python dependencies
+├── LICENSE # MIT License
 └── README.md # Project documentation (this file)
 ```
 <p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
