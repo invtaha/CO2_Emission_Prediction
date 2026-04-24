@@ -45,6 +45,7 @@ to model the linear relationship between a vehicle's **engine size** (in liters)
 
 > **Note**: This is an educational project. The model uses only one feature (engine size) and achieves moderate accuracy. For production use, consider multiple linear regression or advanced models.
 
+<p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
 
 ## 📊 Dataset
 
@@ -80,6 +81,8 @@ to model the linear relationship between a vehicle's **engine size** (in liters)
 | 2014 | 3.5 | 6 | 12.7 | 9.1 | 11.1 | 25 | 255 |
 | 2014 | 3.5 | 6 | 12.1 | 8.7 | 10.6 | 27 | 244 |
 
+<p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
+
 ## 📁 Project Structure
 ```
 CO2_Emission_Prediction/
@@ -105,6 +108,7 @@ CO2_Emission_Prediction/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation (this file)
 ```
+<p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
 
 ## ⚙️ Requirements & Installation
 
@@ -153,6 +157,7 @@ python -c "import pandas, sklearn, matplotlib; print('All dependencies installed
 | `matplotlib` | `3.7+`      | Data visualization                           |
 | `joblib` | `1.2+`      | Model serialization                          |
 
+<p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
 
 ## 🚀 Usage
 
@@ -210,6 +215,7 @@ Predicted CO₂ emission for 2.5L engine: 223.77 g/km
 jupyter notebook notebooks/01_EDA_and_Model.ipynb
 ```
 
+<p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
 
 ## 📈 Results & Model Performance 
 
@@ -225,6 +231,7 @@ jupyter notebook notebooks/01_EDA_and_Model.ipynb
 > An R² of 0.76 means that engine size alone accounts for approximately 76% of the variability in CO₂ emissions. The remaining 24% is influenced by other factors not captured by this model (e.g., vehicle weight, fuel type, driving conditions).
 This is a strong result for a simple linear regression model and demonstrates a clear linear relationship: larger engines → higher CO₂ emissions.
 
+<p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
 
 ## 🧮 Model Details
 
@@ -256,6 +263,7 @@ $\theta_1$ (Coefficient) ≈ 39
 #### Why Simple Linear Regression?
 > Simple Linear Regression is the most fundamental starting point for learning machine learning. It establishes core concepts features, targets, coefficients, loss functions, and evaluation metrics that form the foundation for all advanced ML techniques.
 
+<p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
 
 ## 📉 Regression Plot
 > The plot below shows the fitted regression line (red) against the actual data points (blue scatter). The clear upward trend confirms the positive linear relationship between engine size and CO₂ emissions.
@@ -263,6 +271,8 @@ $\theta_1$ (Coefficient) ≈ 39
 > ![Regression Plot](images/co2_regression_plot.png)
 
 > Figure: Engine Size (L) vs CO₂ Emissions (g/km) with fitted linear regression line
+
+<p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
 
 ## 🤝 Contributing
 
@@ -311,3 +321,5 @@ git push origin feature/your-feature-name
 Made by Taha | First GitHub Project — Many more to come!
 
 </div>
+
+<p align="right">(<a href="#-table-of-contents">back to top</a>)</p>
