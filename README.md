@@ -194,8 +194,8 @@ Model Performance:
    MSE  : 985.94
    R²   : 0.7616
 
-Model saved to C:\Program Files(taha)\programming\python\ml\SLR\CO2_Emissions_Prediction\models\simple_linear_model.pkl
-Plot saved to C:\Program Files(taha)\programming\python\ml\SLR\CO2_Emissions_Prediction\images\co2_regression_plot.png
+Model saved to .../CO2_Emissions_Prediction/models/simple_linear_model.pkl
+Plot saved to .../CO2_Emissions_Prediction/images/co2_regression_plot.png
 
 Model Equation: CO2 = 126.29 + (38.99) × EngineSize
 
